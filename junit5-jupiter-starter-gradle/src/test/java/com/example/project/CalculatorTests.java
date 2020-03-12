@@ -26,7 +26,7 @@ class CalculatorTests {
 		assertEquals(2, calculator.add(1, 1), "1 + 1 should equal 2");
 	}
 
-	//test for subtract method 
+	//test for subtract method
 	@Test
 	@DisplayName("51 - 49 = 2")
 	void subsTwoNumbers() {
