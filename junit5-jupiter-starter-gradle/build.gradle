@@ -2,6 +2,7 @@ plugins {
 	id 'java'
 	id 'eclipse' // optional (to generate Eclipse project files)
 	id 'idea' // optional (to generate IntelliJ IDEA project files)
+	id 'base' //fix issue for "clean" task not being found
 }
 
 repositories {
