@@ -24,7 +24,11 @@ class CalculatorTests {
 	void addsTwoNumbers() {
 		Calculator calculator = new Calculator();
 		assertEquals(2, calculator.add(1, 1), "1 + 1 should equal 2");
+<<<<<<< Updated upstream
 		assertEquals(2, calculator.subtract(2, 1), "2 - 1 should equal 1");
+=======
+		assertEquals(2, calculator.subtract(1, 1), "2 - 1 should equal 1");
+>>>>>>> Stashed changes
 	}
 
 	@ParameterizedTest(name = "{0} + {1} = {2}")
